@@ -10,14 +10,10 @@ namespace Game
     {
         static void Main(string[] args)
         {
-            // test out the new DLL
-
             // create new game (starts game engine)
             Console.WriteLine("Input 0 if you want to use extended end screen pack");
             Console.WriteLine("Input anything else if you want vanilla game");
             var game = new Game(Console.Read());
-            //
-            // initialize and load the menus
 
             // start the game loop
             game.Loop();
